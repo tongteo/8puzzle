@@ -1,0 +1,22 @@
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5em;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  cursor: pointer;
+  user-select: none;
+}
+
+.tile:hover {
+  background-color: #ddd;
+}
+
+.tile.blank {
+  background-color: #fff;
+  border: 1px solid #fff;
+  cursor: default;
+}
